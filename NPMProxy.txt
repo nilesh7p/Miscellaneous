@@ -1,0 +1,1 @@
+npm config set proxy http://"<domain>%5C<UserID>:<Password>"@<Server>:<port>
