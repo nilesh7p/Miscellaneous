@@ -1,1 +1,0 @@
-npm config set proxy http://"cag%5Ct9450np:Maymi@17"@iproxy.appl.chrysler.com:9090
