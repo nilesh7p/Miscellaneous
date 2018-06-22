@@ -1,0 +1,33 @@
+Windows/Unix/Linux
+In the DbVisualizer installation directory there is an .install4j directory,
+In this directory create a file named pref_jre.cfg if it doesn't already exist,
+Open the file in a text editor,
+Add the complete path to the root directory for the Java installation you want to use. 
+Examples: Windows: C:\Program Files\Java\jre8, Linux/UNIX: /usr/java/jdk1.8.0_131
+An alternative solution is to set the DBVIS_JAVA_HOME environment variable to point to the root directory for the Java installation.
+
+Example: DBVIS_JAVA_HOME=C:\Program Files\Java\jre8
+
+Eclipse.ini
+-startup
+plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar
+--launcher.library
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20110502
+-product
+org.eclipse.epp.package.java.product
+--launcher.defaultAction
+openFile
+--launcher.XXMaxPermSize
+256M
+-showsplash
+org.eclipse.platform
+--launcher.XXMaxPermSize
+256m
+--launcher.defaultAction
+openFile
+-vm
+C:\Java\JDK\1.8\bin\javaw.exe
+-vmargs
+-Dosgi.requiredJavaVersion=1.5
+-Xms40m
+-Xmx1024m
