@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+      <BorderPane prefHeight="36.0" prefWidth="200.0" style="-fx-background-color: #303030;">
+         <left>
+            <MaterialDesignIconView fill="#c6ff00" glyphName="HOME" size="24" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="8.0" />
+               </BorderPane.margin>
+            </MaterialDesignIconView>
+         </left>
+         <right>
+            <HBox alignment="CENTER_LEFT" spacing="5.0" BorderPane.alignment="CENTER">
+               <children>
+                  <StackPane prefHeight="20.0" prefWidth="30.0" style="-fx-border-radius: 30; -fx-background-radius: 30;">
+                     <children>
+                        <MaterialDesignIconView fill="#c6ff00" glyphName="CLOSE" size="20" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="20.0" prefWidth="30.0" style="-fx-border-radius: 30; -fx-background-radius: 30;">
+                     <children>
+                        <MaterialDesignIconView fill="#c6ff00" glyphName="CLOSE" size="20" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="60.0" layoutY="10.0" prefHeight="20.0" prefWidth="30.0" style="-fx-border-radius: 30; -fx-background-radius: 30;">
+                     <children>
+                        <MaterialDesignIconView fill="#c6ff00" glyphName="CLOSE" size="20" />
+                     </children>
+                  </StackPane>
+               </children>
+               <BorderPane.margin>
+                  <Insets right="5.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </HBox>
+         </right>
+      </BorderPane>
+<HBox VBox.vgrow="ALWAYS">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="40.0" style="-fx-background-color: #404040;">
+         <top>
+            <MaterialDesignIconView fill="#c6ff00" glyphName="MENU" size="32" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets top="5.0" />
+                     </BorderPane.margin></MaterialDesignIconView>
+         </top>
+               <bottom>
+                  <VBox alignment="TOP_CENTER" spacing="5.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <MaterialDesignIconView fill="#c6ff00" glyphName="LOCK" size="24">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </MaterialDesignIconView>
+                        <MaterialDesignIconView fill="#c6ff00" glyphName="SETTINGS" layoutX="14.0" layoutY="38.0" size="24" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </VBox>
+               </bottom>
+      </BorderPane>
+      <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+         <children>
+            <BorderPane prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #505050;">
+               <right>
+                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </right>
+               <left>
+                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #606060; -fx-border-color: #909090; -fx-border-width: 0 0 0.1em 0;">
+                     <left>
+                        <Button alignment="BOTTOM_CENTER" contentDisplay="GRAPHIC_ONLY" focusTraversable="false" mnemonicParsing="false" style="-fx-background-color: #ededed; -fx-border-radius: 0; -fx-background-radius: 0; -fx-background-insets: 0; -fx-border-image-insets: 0; -fx-border-insets: 0;" BorderPane.alignment="BOTTOM_CENTER">
+                           <graphic>
+                              <MaterialDesignIconView glyphName="PLUS" />
+                           </graphic>
+                        </Button>
+                     </left></BorderPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #cdcdcd;" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
+</children>
+</VBox>
