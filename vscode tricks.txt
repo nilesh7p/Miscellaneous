@@ -23,3 +23,19 @@
 "editor.codeActionsOnSave": {
         "source.organizeImports": true
   }
+
+// **** favourite plugins vscode 
+# andromeda theme :: eliverlara.andromeda
+# aglia theme :: whtsky.agila-theme
+# angular pack :: johnpapa.angular-essentials
+# auto import :: steoates.autoimport
+# auto close tag :: formulahendry.auto-close-tag
+# auto rename tag :: formulahendry.auto-rename-tag
+# indent rainbow :: oderwat.indent-rainbow
+# material icons :: pkief.material-icon-theme
+# Intellisense 
+      ## npm : christian-kohler.npm-intellisense
+      ## path : christian-kohler.path-intellisense
+# tslint :: ms-vscode.vscode-typescript-tslint-plugin
+# todo highlight :: wayou.vscode-todo-highlight
+# Rainbow brackets :: 2gua.rainbow-brackets
