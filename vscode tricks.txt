@@ -1,0 +1,25 @@
+// **** Fix auto import 
+// add following to tsconfig.json or tsconfig.app.json in the "Compiler Options" section 
+"typeRoots": [
+      "node_modules/@types",
+      "node_modules/@angular",
+      "node_modules/@angular/material",
+      "node_modules/@angular/common/http",
+    ],
+// so now compiler options should look like 
+ "compilerOptions": {
+    ......
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@angular",
+      "node_modules/@angular/material",
+      "node_modules/@angular/common/http",
+    ],
+  },
+
+// **** enable auto organize imports on save. 
+// edit settings.json File>>Preferences>>Settings>>Text Editor >> Search 'On Save'
+// append to the settings file
+"editor.codeActionsOnSave": {
+        "source.organizeImports": true
+  }
